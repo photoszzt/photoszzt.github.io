@@ -1,27 +1,109 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Zhiting Zhu</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title> Zhiting Zhu | UTCS </title>
 
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 id="header-left">Zhiting Zhu</h1>
-        <div id="header-right">or &nbsp;&nbsp; 朱沚汀</div>
-      </header>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <p stype="clear:both">
-    PhD Student <br>
-    Department of Computer Science <br>
-    The University of Texas at Austin
-    </p>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+                    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                      <![endif]-->
+</head>
+<body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 
+<div class="container">
+    <div class="row">
+        <div class="span3">
+            <h2>Zhiting Zhu or 朱沚汀</h2>
+            <ul class="unstyled bottom-left">
+                <li>UTCS PhD Student</li>
+                <li><em>Advisor:</em> <a href="https://www.cs.utexas.edu/users/witchel/">Emmett Whitchel</a></li>
+                <li><em>Mail:</em> <font face="courier">zhitingz at cs.utexas.edu</font></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="span12">
+            <h3>Education</h3>
+            <h4>The University of Texas at Austin(current)</h4>
+            <p><em>PhD Computer Science</em> (2014-now)</p>
+            <h4>University of Washington, Seattle</h4>
+            <p><em>B.S. in Computer Engineering and B.S. in Electrical Engineering</em> (2010-2014)</p>
+        </div>
+    </div>
+    </hr>
+    <hr>
+    <div class="row">
+        <div class="span12">
+            <h3>Publication</h3>
+            <b class="colabs"><em style="font-size:18px">Ryoan: A Distributed Sandbox for Untrusted
+                Computation on Secret Data</em> (To Appear)
+            <br> thunt, <b>Zhiting Zhu</b>, yxu, simon, witchel
+            <br> in <i>The 12th USENIX Symposium on Operating System Design and Implementation
+            <br><b class="conf">(<a href="https://www.usenix.org/conference/osdi16">OSDI</a>), 
+                Savannah, GA, November 2016</i></b>
+        </div>
+    </div>
+    </hr>
+    <hr>
+    <div class="row">
+        <div class="span12">
+            <h3>Internships</h3>
+            <ul>
+            <li>Summer 2016 Google</li>
+            <li>Summer 2015 Google</li>
+            <li>Summer 2013 Foursquare</li>
+            </ul>
+        </div>
+    </div>
+    </hr>
+</div>
+</body>
+<script>
+var colaborators = [
+{ name:"witchel",
+link:"<a href=\"https://www.cs.utexas.edu/~witchel\">Emmett Witchel</a>"
+},
+{ name:"yxu",
+link:"<a href=\"https://www.cs.utexas.edu/~yxu\">Yuanzhong Xu</a>"
+},
+{ name:"kwon",
+link:"<a href=\"https://www.cs.utexas.edu/~yjkwon\">Youngjin Kwon</a>"
+},
+{ name:"vitaly",
+link:"<a href=\"http://www.cs.cornell.edu/~shmat\">Vitaly Shmatikov</a>"
+},
+{ name:"simon",
+link:"<a href=\"http://www.cs.utexas.edu/~simon\">Simon Peter</a>"
+},
+{ name:"thunt",
+link:"<a href=\"http://www.cs.utexas.edu/~thunt\">Tyler Hunt</a>"
+}
 
-    <p stype="clear:both">
-    email: zhitingz AT cs DOT utexas DOT edu <br>
-    </p>
-  </body>
+]
+var colab_elements = document.getElementsByClassName("colabs")
+for (var i in colab_elements) {
+    var str = String(colab_elements[i].innerHTML);
+    colaborators.forEach(function(colab) {
+            str = str.replace(colab.name, colab.link);
+
+            });
+    colab_elements[i].innerHTML = str;
+
+}
+
+</script>
 </html>
