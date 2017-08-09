@@ -1,6 +1,0 @@
-baseURL = "photoszzt.github.io"
-languageCode = "en-us"
-title = "Zhiting Zhu"
-
-[Params]
-    Author = "Zhiting Zhu"
