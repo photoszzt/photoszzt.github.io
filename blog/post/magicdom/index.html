@@ -118,7 +118,7 @@ allocated object, MagicDOM stores all of the fields in the reflector (Figure 2).
 
 <p>From Figure 2, all of the fields are stored in the reserved slots in the JSObject.
 There are 16 inline slots which store at the struct of JSObject<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. If more slots
-are needed, data will be stored in dynamic slots. In total, at most 255 slots.
+are needed, data will be stored in dynamic slots. In total, at most 255 slots
 can be used.</p>
 
 <p>Data stores in the slots would be in <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/JSAPI_Reference/JS::Value">JSValues</a>
@@ -219,11 +219,14 @@ struct Element_spec {
 }
 </code></pre>
 
-<p>and generates the following implementations:
-- Getter (Rust and self-hosted JavaScript)
-- Setter (Rust and self-hosted JavaScript)
-- Constructor (Rust)
-- Trait implementations that stores and retrieve MagicDOM from slots</p>
+<p>and generates the following implementations:</p>
+
+<ul>
+<li>Getter (Rust and self-hosted JavaScript)</li>
+<li>Setter (Rust and self-hosted JavaScript)</li>
+<li>Constructor (Rust)</li>
+<li>Trait implementations that stores and retrieve MagicDOM from slots</li>
+</ul>
 
 <p>The slot number is calculated when generating the getter and setter. To help to
 calculate the slot number in face of inheritance, all types including
