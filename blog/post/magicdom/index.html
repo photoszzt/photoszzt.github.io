@@ -396,7 +396,8 @@ the array which is quiet surprise. From its name, it should be O(1) not O(n).
 Following the call train, it traces to the <a href="http://searchfox.org/mozilla-central/source/js/src/vm/NativeObject.cpp#2771">NativeSetProperty</a>
 function. Ideally, we should use a <a href="http://searchfox.org/mozilla-central/source/js/src/jsapi.h">JSAPI</a>
 function that eventually leads to
-<a href="http://searchfox.org/mozilla-central/source/js/src/vm/NativeObject.h#1145">setDenseElement</a>.
+<a href="http://searchfox.org/mozilla-central/source/js/src/vm/NativeObject.h#1145">setDenseElement</a>
+which is O(1).
 Right now, there&rsquo;s no JSAPI for it.</p>
 
 <h2 id="discussion">Discussion</h2>
