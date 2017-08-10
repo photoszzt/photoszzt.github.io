@@ -225,7 +225,7 @@ struct Element_spec {
 <li>Getter (Rust and self-hosted JavaScript)</li>
 <li>Setter (Rust and self-hosted JavaScript)</li>
 <li>Constructor (Rust)</li>
-<li>Trait implementations that stores and retrieve MagicDOM from slots</li>
+<li>Trait implementations that stores and retrieves MagicDOM from slots</li>
 </ul>
 
 <p>The slot number is calculated when generating the getter and setter. To help to
@@ -388,7 +388,16 @@ running 1024 trials in a loop and measuring the total time.
     </figcaption>
     
 </figure>
-</p>
+
+From Fiture 7, the js native implementation is very slow. After benchmarking the
+individual SpiderMonkey function it calls, the JS_SetElement is the root cause.
+The time it takes to return from this function is increasing with the length of
+the array which is quiet surprise. From its name, it should be O(1) not O(n).
+Following the call train, it traces to the <a href="http://searchfox.org/mozilla-central/source/js/src/vm/NativeObject.cpp#2771">NativeSetProperty</a>
+function. Ideally, we should use a <a href="http://searchfox.org/mozilla-central/source/js/src/jsapi.h">JSAPI</a>
+function that eventually leads to
+<a href="http://searchfox.org/mozilla-central/source/js/src/vm/NativeObject.h#1145">setDenseElement</a>.
+Right now, there&rsquo;s no JSAPI for it.</p>
 
 <h2 id="discussion">Discussion</h2>
 
