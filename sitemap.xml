@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>photoszzt.github.io/publication/txfs/</loc>
-      <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+      <loc>/publication/txfs.html</loc>
+      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/post/magicdom/</loc>
+      <loc>/post/magicdom.html</loc>
       <lastmod>2017-08-08T16:39:58-07:00</lastmod>
     </url>
     
@@ -23,7 +23,16 @@
     
     <url>
     
-      <loc>photoszzt.github.io/publication/gpu-security/</loc>
+      <loc>/publication/ryoan_login.html</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/gpu-security.html</loc>
       <lastmod>2017-02-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/talk/gpu-security/</loc>
+      <loc>/talk/gpu-security.html</loc>
       <lastmod>2017-02-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +50,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/post/</loc>
+      <loc>/post.html</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/publication/</loc>
+      <loc>/publication.html</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +68,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/talk/</loc>
+      <loc>/talk.html</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +77,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/publication/ryoan/</loc>
+      <loc>/publication/ryoan.html</loc>
       <lastmod>2016-11-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +86,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/categories/</loc>
+      <loc>/categories.html</loc>
       <priority>0</priority>
     </url>
     
@@ -86,7 +95,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/tags/</loc>
+      <loc>/tags.html</loc>
       <priority>0</priority>
     </url>
     
@@ -95,7 +104,7 @@
     
     <url>
     
-      <loc>photoszzt.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
