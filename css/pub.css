@@ -1,0 +1,21 @@
+.pub-list-item .pub-authors {
+  line-height: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.pub-list-item .pub-publication {
+  color: #000000;
+  font-size: 1rem;
+}
+
+.pub-list-item {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-links {
+  padding-top: 5px;
+}
+
