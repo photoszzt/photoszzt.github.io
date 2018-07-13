@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Zhiting Zhu(朱沚汀)</title>
+    <link>https://cs.utexas.edu/~zhitingz/post.html</link>
+    <description>Recent content in Posts on Zhiting Zhu(朱沚汀)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Zhiting Zhu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://cs.utexas.edu/~zhitingz/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Magicdom</title>
+      <link>https://cs.utexas.edu/~zhitingz/post/magicdom.html</link>
+      <pubDate>Tue, 08 Aug 2017 16:39:58 -0700</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/post/magicdom.html</guid>
+      <description>Motivation DOM is the API that allows JavaScript to interact with HTML documents. The object that is a part of the DOM API is usually implemented as heap allocated C++/Rust object for most browsers. For JavaScript to interact with these objects, it needs to go through a wrapper called a reflector that gives JavaScript code access to the DOM object. For example, the DOM objects and reflectors on Servo is shown in Figure 1.</description>
+    </item>
+    
+  </channel>
+</rss>

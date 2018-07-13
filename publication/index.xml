@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Zhiting Zhu(朱沚汀)</title>
+    <link>https://cs.utexas.edu/~zhitingz/publication.html</link>
+    <description>Recent content in Publications on Zhiting Zhu(朱沚汀)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Zhiting Zhu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cs.utexas.edu/~zhitingz/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TxFS: Leveraging File-System Crash Consistency to Provide ACID Transactions</title>
+      <link>https://cs.utexas.edu/~zhitingz/publication/txfs.html</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/publication/txfs.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryoan: A Distributed Sandbox for Untrusted Computation on Secret Data</title>
+      <link>https://cs.utexas.edu/~zhitingz/publication/ryoan_login.html</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/publication/ryoan_login.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding The Security of Discrete GPUs</title>
+      <link>https://cs.utexas.edu/~zhitingz/publication/gpu-security.html</link>
+      <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/publication/gpu-security.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryoan: A Distributed Sandbox for Untrusted Computation on Secret Data</title>
+      <link>https://cs.utexas.edu/~zhitingz/publication/ryoan.html</link>
+      <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/publication/ryoan.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

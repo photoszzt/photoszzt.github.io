@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Zhiting Zhu(朱沚汀)</title>
+    <link>https://cs.utexas.edu/~zhitingz/home.html</link>
+    <description>Recent content in Homes on Zhiting Zhu(朱沚汀)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Zhiting Zhu</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cs.utexas.edu/~zhitingz/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://cs.utexas.edu/~zhitingz/home/about.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/about.html</guid>
+      <description>Biography Zhiting Zhu is a Ph.D. student (2014 ~ current) in the University of Texas at Austin under supervision of Prof. Emmett Witchel. His research interests lie primarily in operating systems.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/publications.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/publications.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/talks.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/talks.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internship</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/internship.html</link>
+      <pubDate>Sat, 30 Sep 2017 15:46:34 -0500</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/internship.html</guid>
+      <description> Mozilla Research, Summer 2017 Google, Summer 2016 Google, Summer 2015 Foursquare, Summer 2013  </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/teaching.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/teaching.html</guid>
+      <description>@ University of Texas at Austin:
+ CS 373 Software Engineering (Fall 2018) CS 380L Advanced Operating Systems (Spring 2017) CS 371M Mobile Computing (Fall 2016, Spring 2018) CS 439 Principles of Computer Systems (Fall 2014)  @ University of Washington, Seattle:
+ CSE 374: Intermediate Programming Concepts and Tools CSE 373: Data Structures and Algorithms  </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/posts.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/posts.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://cs.utexas.edu/~zhitingz/home/contact.html</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.utexas.edu/~zhitingz/home/contact.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

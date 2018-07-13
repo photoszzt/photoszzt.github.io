@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.29" />
+  <meta name="generator" content="Hugo 0.38.2" />
   <meta name="author" content="Zhiting Zhu">
   <meta name="description" content="PhD student">
 
@@ -240,7 +240,7 @@ interact with these objects, it needs to go through a wrapper called
 a reflector that gives JavaScript code access to the DOM object. For example,
 the DOM objects and reflectors on Servo is shown in Figure 1.
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/reflector.png" />
     
@@ -279,7 +279,7 @@ the pure annotation on WebIDL for the DOM accessors.</p>
 <p>Based on the observation, instead of storing the fields of DOM in a separate heap
 allocated object, MagicDOM stores all of the fields in the reflector (Figure 2).
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/transform.png" />
     
@@ -293,7 +293,7 @@ allocated object, MagicDOM stores all of the fields in the reflector (Figure 2).
 </p>
 
 <p>From Figure 2, all of the fields are stored in the reserved slots in the JSObject.
-There are 16 inline slots which store at the struct of JSObject<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. If more slots
+There are 16 inline slots which store at the struct of JSObject<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>. If more slots
 are needed, data will be stored in dynamic slots. In total, at most 255 slots
 can be used.</p>
 
@@ -442,7 +442,7 @@ time. The normal js test case is the following:</p>
 <p>The normal js is not equivalent to the self-hosted JavaScript but it&rsquo;s a lower
 bound to see how well the JIT can optimize the code.
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/getid.png" />
     
@@ -469,7 +469,7 @@ time. The normal js test case is the following:</p>
 </code></pre>
 
 <p>
-<figure >
+<figure>
     
         <img src="../img/magicdom/setid.png" />
     
@@ -489,7 +489,7 @@ methods, let&rsquo;s look at some complex methods.</p>
 <p>This method is tested by calling 102400 times in a loop and measure the total
 time.
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/getattributes.png" />
     
@@ -515,7 +515,7 @@ way in SpiderMonkey now to support this. But there are <a href="https://bugzilla
 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1226261" target="_blank">patches</a> in review trying
 to address this problem.
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/setattributes.png" />
     
@@ -533,7 +533,7 @@ to address this problem.
 <p>This method is tested by appending 2000 elements on a node in one trial,
 running 1024 trials in a loop and measuring the total time.
 
-<figure >
+<figure>
     
         <img src="../img/magicdom/appendchild.png" />
     
