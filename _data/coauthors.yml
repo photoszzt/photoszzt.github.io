@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"zhipengjia":
+  - firstname: ["Zhipeng", "Z. Jia", "Zhipeng Jia"]
+    url: https://about.zjia.one/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"newtonni":
+  - firstname: ["Newton", "N. Ni", "Newton Ni"]
+    url: https://nwtnni.me/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"dixintang":
+  - firstname: ["Dixin", "D. Tang", "Dixin Tang"]
+    url: https://dx-tang.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"emmettwitchel":
+  - firstname: ["Emmett", "E. Twitchel", "Emmett Twitchel"]
+    url: https://www.cs.utexas.edu/~witchel/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"yansun":
+  - firstname: ["Yan", "Y. Sun", "Yan Sun"]
+    url: https://ynnsau.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"namsungkim":
+  - firstname: ["Nam Sung", "N. Kim", "Nam Sung Kim"]
+    url: https://ece.illinois.edu/about/directory/faculty/nskim
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"yibohuang":
+  - firstname: ["Yibo", "Y. Huang", "Yibo Huang"]
+    url: https://yibo-huang.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"christopherjrossbach":
+  - firstname: ["Christopher", "C. Rossbach", "Christopher Rossbach"]
+    url: https://www.cs.utexas.edu/~rossbach/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"henriquefingler":
+  - firstname: ["Henrique", "H. Fingler", "Henrique Fingler"]
+    url: https://github.com/hfingler
