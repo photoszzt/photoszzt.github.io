@@ -59,6 +59,17 @@ ninja.data = [{
             window.location.href = "/blog/2017/magicdom/";
           
         },
+      },{id: "post-byteroburst",
+        
+          title: "Byteroburst",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/byteroburst/";
+          
+        },
       },{id: "news-announcement-1",
           title: 'Announcement_1',
           description: "",
