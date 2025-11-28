@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: ByteRobust
@@ -7,6 +6,7 @@ description: Robust LLM Training Infrastructure at ByteDance
 tags: paper-review
 categories: paper-review
 ---
+
 ### Robust LLM Training Infrastructure at ByteDance [link](https://arxiv.org/abs/2509.16293)
 
 Control plane
