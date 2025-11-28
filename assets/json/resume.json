@@ -89,11 +89,7 @@
     {
       "name": "Computer Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Data Systems",
-        "Operating Systems",
-        "System for ML"
-      ]
+      "keywords": ["Data Systems", "Operating Systems", "System for ML"]
     }
   ]
 }
