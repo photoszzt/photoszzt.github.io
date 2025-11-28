@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/2025-11-22-minder/";
           
         },
+      },{id: "post-byterobust",
+        
+          title: "ByteRobust",
+        
+        description: "Robust LLM Training Infrastructure at ByteDance",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/byteroburst/";
+          
+        },
       },{id: "post-magicdom",
         
           title: "Magicdom",
@@ -57,17 +68,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2017/magicdom/";
-          
-        },
-      },{id: "post-byteroburst",
-        
-          title: "Byteroburst",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/byteroburst/";
           
         },
       },{id: "news-announcement-1",
