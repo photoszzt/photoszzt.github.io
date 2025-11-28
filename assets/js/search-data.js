@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-minder",
         
-          title: "",
+          title: "Minder",
         
-        description: "",
+        description: "Minder Faulty Machine Detection for Large-scale Distributed Model Training",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-11-22-minder/";
+            window.location.href = "/blog/2025/minder/";
           
         },
       },{id: "post-byterobust",
