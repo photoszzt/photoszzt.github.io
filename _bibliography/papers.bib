@@ -12,7 +12,9 @@ booktitle = {Proceedings of the Twentieth European Conference on Computer System
 pages = {637–653},
 numpages = {17},
 location = {Rotterdam, Netherlands},
-series = {EuroSys '25}
+series = {EuroSys '25},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3689031.3717485},
+code = {https://github.com/ut-osa/impeller-artifact},
 }
 
 @inproceedings{10.1145/3698783.3699377,
@@ -30,7 +32,8 @@ pages = {41–50},
 numpages = {10},
 keywords = {CXL, Partial failure tolerance},
 location = {Austin, TX, USA},
-series = {DIMES '24}
+series = {DIMES '24},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3698783.3699377}
 }
 
 @article{10.1145/3606557.3606560,
@@ -61,7 +64,9 @@ numpages = {11}
   number={},
   pages={739-750},
   keywords={Distributed processing;Cloud computing;Runtime;Graphics processing units;Prototypes;Production;Machine learning;cloud computing;serverless;FaaS;GPU;API remoting},
-  doi={10.1109/IPDPS53621.2022.00077}}
+  doi={10.1109/IPDPS53621.2022.00077},
+  abstract={Ease of use and transparent access to elastic resources have attracted many applications away from traditional platforms toward serverless functions. Many of these applications, such as machine learning, could benefit significantly from GPU acceleration. Unfortunately, GPUs remain inaccessible from serverless functions in modern production settings. We present DGSF, a platform that transparently enables serverless functions to use GPUs through general purpose APIs such as CUDA. DGSF solves provisioning and utilization challenges with disaggregation, serving the needs of a potentially large number of functions through virtual GPUs backed by a small pool of physical GPUs on dedicated servers. Disaggregation allows the provider to decouple GPU provisioning from other resources, and enables significant benefits through consolidation. We describe how DGSF solves GPU disaggregation challenges including supporting API transparency, hiding the latency of communication with remote GPUs, and load-balancing access to heavily shared GPUs. Evaluation of our prototype on six workloads shows that DGSF's API remoting optimizations can improve the runtime of a function by up to 50% relative to unoptimized DGSF. Such optimizations, which aggressively remove GPU runtime and object management latency from the critical path, can enable functions running over DGSF to have a lower end-to-end time than when running on a GPU natively. By enabling GPU sharing, DGSF can reduce function queueing latency by up to 53%. We use DGSF to augment AWS Lambda with GPU support, showing similar benefits.}
+}
 
 @article{10.1145/3318159,
 author = {Hu, Yige and Zhu, Zhiting and Neal, Ian and Kwon, Youngjin and Cheng, Tianyu and Chidambaram, Vijay and Witchel, Emmett},
@@ -93,7 +98,9 @@ address = {Boston, MA},
 pages = {879--891},
 url = {https://www.usenix.org/conference/atc18/presentation/hu},
 publisher = {USENIX Association},
-month = jul
+month = jul,
+abstract = {We introduce TxFS, a novel transactional file system that builds upon a file system’s atomic-update mechanism such as journaling. Though prior work has explored a number of transactional file systems, TxFS has a unique set of properties: a simple API, portability across different hardware, high performance, low complexity (by building on the journal), and full ACID transactions. We port SQLite and Git to use TxFS, and experimentally show that TxFS provides strong crash consistency while providing equal or better performance.},
+pdf = {https://www.usenix.org/system/files/conference/atc18/atc18-hu.pdf},
 }
 
 @article{10.1145/3231594,
@@ -113,7 +120,8 @@ journal = {ACM Trans. Comput. Syst.},
 month = dec,
 articleno = {13},
 numpages = {32},
-keywords = {Intel SGX, enclaves, private computation, sandboxing, untrusted OS}
+keywords = {Intel SGX, enclaves, private computation, sandboxing, untrusted OS},
+code = {https://github.com/ut-osa/ryoan},
 }
 
 @inproceedings{10.1145/3038228.3038233,
@@ -143,5 +151,7 @@ address = {Savannah, GA},
 pages = {533--549},
 url = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/hunt},
 publisher = {USENIX Association},
-month = nov
+month = nov,
+pdf = {https://www.usenix.org/system/files/conference/osdi16/osdi16-hunt.pdf},
+code = {https://github.com/ut-osa/ryoan},
 }
