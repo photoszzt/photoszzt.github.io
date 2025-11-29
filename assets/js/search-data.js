@@ -59,6 +59,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/byteroburst/";
           
         },
+      },{id: "post-what-if-analysis",
+        
+          title: "What if analysis",
+        
+        description: "Understanding Stragglers in Large Model Training Using What-if Analysis",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/whatif/";
+          
+        },
       },{id: "post-magicdom",
         
           title: "Magicdom",
