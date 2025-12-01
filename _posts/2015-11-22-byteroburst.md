@@ -5,11 +5,16 @@ date: 2025-11-22T16:39:58-07:00
 description: Robust LLM Training Infrastructure at ByteDance
 tags: paper-review
 categories: paper-review
+giscus_comments: true
+
+toc:
+  - name: Control plane
+  - name: Data plane
 ---
 
 ### Robust LLM Training Infrastructure at ByteDance [link](https://arxiv.org/abs/2509.16293)
 
-Control plane
+#### Control plane
 
 1. Robust controller
    1. Robust controller react to events from proactive realtime check:
@@ -34,7 +39,7 @@ Control plane
       1. Repeat aggregation every 10s, flag the parallel group with the most outliers at each round.
       2. Parallel group with the highest cumulative flag count across 5 rounds is marked as the degrader for over-eviction.
 
-Data plane (Robust agent in each training pod)
+#### Data plane (Robust agent in each training pod)
 
 1. Monitor
    1. System inspection (Proactive realtime check):
