@@ -19,7 +19,7 @@ function determineGiscusTheme() {
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
     "data-repo": "photoszzt/photoszzt.github.io",
-    "data-repo-id": "MDEwOlJlcG9zaXRvcnk2MjExMzYyOQ==",
+    "data-repo-id": "R_kgDOQb2N6g",
     "data-category": "Comments",
     "data-category-id": "",
     "data-mapping": "title",
