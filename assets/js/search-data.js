@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-minder",
+        },{id: "post-mycroft",
+        
+          title: "Mycroft",
+        
+        description: "Mycroft Tracing Dependencies in Collective  Communication Towards Reliable LLM Training",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/mycroft/";
+          
+        },
+      },{id: "post-minder",
         
           title: "Minder",
         
