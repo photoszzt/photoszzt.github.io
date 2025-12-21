@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-mycroft",
+        },{id: "post-megascale",
+        
+          title: "Megascale",
+        
+        description: "Scaling Large Language Model Training to More Than 10,000 GPUs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/megascale/";
+          
+        },
+      },{id: "post-mycroft",
         
           title: "Mycroft",
         
