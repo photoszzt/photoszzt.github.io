@@ -45,7 +45,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-12-07-traincheck/";
+            window.location.href = "/blog/2026/2025-12-07-traincheck/";
           
         },
       },{id: "post-megascale",
