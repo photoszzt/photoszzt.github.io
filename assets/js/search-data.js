@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2025-12-07-traincheck/";
-          
-        },
-      },{id: "post-megascale",
+        },{id: "post-megascale",
         
           title: "Megascale",
         
@@ -90,6 +79,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/byteroburst/";
+          
+        },
+      },{id: "post-training-with-confidence",
+        
+          title: "Training with Confidence",
+        
+        description: "Catching Silent Errors in Deep Learning  Training with Automated Proactive Checks",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/traincheck/";
           
         },
       },{id: "post-what-if-analysis",
