@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-31'
+  last_updated: '2026-01-14'
 papers:
   cG2iNIAAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: 'Impeller: Stream Processing on Shared Logs'
     year: '2025'
   cG2iNIAAAAAJ:d1gkVwhDpl0C:
-    citations: 439
+    citations: 440
     title: 'Ryoan: A distributed sandbox for untrusted computation on secret data'
     year: '2018'
   cG2iNIAAAAAJ:qjMakFHDy7sC:
