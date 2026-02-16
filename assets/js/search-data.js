@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-mdp",
+        },{id: "post-gepa",
+        
+          title: "GEPA",
+        
+        description: "REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM REINFORCEMENT LEARNING",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/gepa/";
+          
+        },
+      },{id: "post-mdp",
         
           title: "MDP",
         
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/mycroft/";
-          
-        },
-      },{id: "post-gepa",
-        
-          title: "GEPA",
-        
-        description: "REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM REINFORCEMENT LEARNING",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/gepa/";
           
         },
       },{id: "post-minder",
