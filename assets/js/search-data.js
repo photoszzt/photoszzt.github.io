@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-agentic-context-engineering",
+        },{id: "post-perftracker",
+        
+          title: "perftracker",
+        
+        description: "Online Performance Troubleshooting for Large-scale Model Training in Production",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/perftracker/";
+          
+        },
+      },{id: "post-agentic-context-engineering",
         
           title: "Agentic Context Engineering",
         
