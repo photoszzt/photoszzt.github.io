@@ -26,6 +26,7 @@ LMT function (Python functions, GPU/CPU kernel functions, memory operations, etc
 #### Design
 
 <img width="1625" height="553" alt="image" src="https://github.com/user-attachments/assets/a422f84c-4d1d-40bf-8272-7a3b34ce8f12" />
+
 - (1) detecting performance degradation of LMT to trigger online profiling (per worker). 
 - (2) summarizing runtime behavior patterns of each function from raw profiling data (per worker).
 - (3) a centralized localization algorithm that pinpoints the root-cause function based on the behavior patterns (global).
