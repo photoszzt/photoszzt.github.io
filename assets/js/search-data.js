@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-agentic-context-engineering",
         
-          title: "",
+          title: "Agentic Context Engineering",
         
-        description: "",
+        description: "Evolving Contexts for Self-Improving Language Models",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-02-17-ace/";
+            window.location.href = "/blog/2026/ace/";
           
         },
       },{id: "post-gepa",
