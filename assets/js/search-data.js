@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-perftracker",
+        },{id: "post-sharpen-the-spec-cut-the-code-a-case-for-generative-file-system-with-sysspec",
+        
+          title: "Sharpen the Spec, Cut the Code A Case for Generative File System with...",
+        
+        description: "Sharpen the Spec, Cut the Code A Case for Generative File System with SYSSPEC",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sysspec/";
+          
+        },
+      },{id: "post-perftracker",
         
           title: "perftracker",
         
