@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-03-09'
 papers:
   cG2iNIAAAAAJ:9yKSN-GCB0IC:
     citations: 0
     title: Leveraging File-System Crash Consistency to Provide ACID Transactions
     year: Unknown Year
   cG2iNIAAAAAJ:IjCSPb-OGe4C:
-    citations: 9
+    citations: 10
     title: 'Lupin: Tolerating partial failures in a cxl pod'
     year: '2024'
   cG2iNIAAAAAJ:UeHWp8X0CEIC:
@@ -18,7 +18,7 @@ papers:
     title: 'Impeller: Stream Processing on Shared Logs'
     year: '2025'
   cG2iNIAAAAAJ:d1gkVwhDpl0C:
-    citations: 436
+    citations: 438
     title: 'Ryoan: A distributed sandbox for untrusted computation on secret data'
     year: '2018'
   cG2iNIAAAAAJ:qjMakFHDy7sC:
