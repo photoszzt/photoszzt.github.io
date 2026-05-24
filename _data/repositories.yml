@@ -5,7 +5,6 @@ repo_description_lines_max: 2
 
 github_repos:
   - ut-osa/impeller-artifact
-  - photoszzt/impeller
-  - photoszzt/gpu-burn
   - photoszzt/nvidia_sniffer
-  - photoszzt/nexmark
+  - photoszzt/cxl_shmem
+  - photoszzt/tlaplus-ai-tools

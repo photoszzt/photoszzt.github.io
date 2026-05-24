@@ -3,8 +3,8 @@ metadata:
 papers:
   cG2iNIAAAAAJ:9yKSN-GCB0IC:
     citations: 0
-    title: Leveraging File-System Crash Consistency to Provide ACID Transactions
-    year: Unknown Year
+    title: 'Leveraging File-System Crash Consistency to Provide ACID Transactions'
+    year: '2018'
   cG2iNIAAAAAJ:IjCSPb-OGe4C:
     citations: 12
     title: 'Lupin: Tolerating partial failures in a cxl pod'
