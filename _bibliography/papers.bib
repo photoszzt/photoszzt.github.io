@@ -1,3 +1,21 @@
+@inproceedings{10.1145/3779212.3790149,
+author = {Ni, Newton and Sun, Yan and Zhu, Zhiting and Witchel, Emmett},
+title = {Cxlalloc: Safe and Efficient Memory Allocation for a CXL Pod},
+year = {2026},
+isbn = {9798400723599},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3779212.3790149},
+doi = {10.1145/3779212.3790149},
+abstract = {A Compute Express Link (CXL) pod is a group of hosts that share CXL-attached memory. A memory allocator for a CXL pod faces novel challenges: (1) CXL devices may not fully support inter-host hardware cache coherence (HWcc), (2) the allocator may be concurrently accessed from different processes, and (3) with more hosts, failures become more likely.We present cxlalloc, a user-space memory allocator that addresses these challenges through careful metadata layout and new protocols to maintain cache coherence in software, coordinate memory mappings across processes, and recover from crashes. Cxlalloc uses compare-and-swap (CAS) for efficient synchronization; to support CXL devices with no HWcc, we present a memory-based CAS (mCAS) primitive implemented in an FPGA.Experiments with in-memory key-value store workloads demonstrate that cxlalloc retains competitive performance while enabling new use-cases. Experiments with a commercial CXL device show that cxlalloc can achieve 80\% of its maximum allocation throughput using mCAS.},
+booktitle = {Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
+pages = {528–545},
+numpages = {18},
+keywords = {memory allocation, cxl, shared memory, mcas, cache coherence},
+location = {USA},
+series = {ASPLOS '26}
+}
+
 @inproceedings{10.1145/3689031.3717485,
 author = {Zhu, Zhiting and Jia, Zhipeng and Ni, Newton and Tang, Dixin and Witchel, Emmett},
 title = {Impeller: Stream Processing on Shared Logs},
