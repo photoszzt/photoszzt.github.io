@@ -9,13 +9,11 @@ giscus_comments: true
 ---
 
 1. Fault-tolerant training
-
    - A driver process identifies the failed pod by heartbeat. Driver pauses the training, run self diagnostic test, identify faulty node, driver submits the IP addresses of the nodes to be blocked, along with the information of the Pods running on them, to
 
      Kubernetes evicts the faulty nodes and replenishes the cluster with an equivalent amount of healthy ones, which pass our diagnostic tests.
 
 2. Data collection
-
    - IP address, the Pod name, hardware information, current status of the
 
      training processes, stdout/stderr logs of training processes, RDMA traffic metrics(look for significant decline or abnormal fluctuation),
@@ -28,7 +26,6 @@ giscus_comments: true
    1. all-to-all test among the GPUs within a single node
    2. all-reduce test with neighboring machines under the same ToR switch
 6. Fast checkpoint
-
    1. First step: each GPU worker writes its on-chip states to the host memory, and then continues the training process
    2. Second step: a background process takes over, asynchronously transferring the state from the host memory to a distributed file system (HDFS in our deployment) for centralized maintenance
 
