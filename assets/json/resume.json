@@ -39,6 +39,14 @@
       "endDate": "2024-08"
     }
   ],
+  "volunteer": [
+    {
+      "organization": "MLSys 2026",
+      "position": "External Reviewer",
+      "url": "https://mlsys.org/",
+      "summary": "Program committee external reviewer"
+    }
+  ],
   "education": [
     {
       "institution": "The University of Texas at Austin",
