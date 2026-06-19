@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-attention-math",
+        },{id: "post-piper",
+        
+          title: "Piper",
+        
+        description: "Piper",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/piper/";
+          
+        },
+      },{id: "post-attention-math",
         
           title: "attention math",
         
