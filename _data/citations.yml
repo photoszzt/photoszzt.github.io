@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-08'
 papers:
   cG2iNIAAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: 'Impeller: Stream Processing on Shared Logs'
     year: '2025'
   cG2iNIAAAAAJ:d1gkVwhDpl0C:
-    citations: 458
+    citations: 459
     title: 'Ryoan: A distributed sandbox for untrusted computation on secret data'
     year: '2018'
   cG2iNIAAAAAJ:qjMakFHDy7sC:
@@ -26,7 +26,7 @@ papers:
     title: 'Dgsf: Disaggregated gpus for serverless functions'
     year: '2022'
   cG2iNIAAAAAJ:sA9dB-pw3HoC:
-    citations: 1
+    citations: 2
     title: 'Cxlalloc: Safe and Efficient Memory Allocation for a CXL Pod'
     year: '2026'
   cG2iNIAAAAAJ:u-x6o8ySG0sC:
@@ -34,6 +34,6 @@ papers:
     title: 'TxFS: Leveraging file-system crash consistency to provide ACID transactions'
     year: '2019'
   cG2iNIAAAAAJ:u5HHmVD_uO8C:
-    citations: 61
+    citations: 62
     title: Understanding the security of discrete GPUs
     year: '2017'
