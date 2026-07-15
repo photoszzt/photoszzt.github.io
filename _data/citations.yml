@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-15'
 papers:
   cG2iNIAAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -34,6 +34,6 @@ papers:
     title: 'TxFS: Leveraging file-system crash consistency to provide ACID transactions'
     year: '2019'
   cG2iNIAAAAAJ:u5HHmVD_uO8C:
-    citations: 62
+    citations: 61
     title: Understanding the security of discrete GPUs
     year: '2017'
